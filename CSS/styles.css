@@ -82,3 +82,22 @@ main section:first-of-type h2 {
   font-size: 16px;
   font-weight: normal;
 }
+main section img,
+main section iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #4a3525;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+blockquote {
+  border-left: 4px solid #d85a30;
+  padding-left: 14px;
+  margin: 1rem 0;
+  font-style: italic;
+  color: #4a3525;
+}
+main section:first-of-type blockquote {
+  color: #f5e9d8;
+}
