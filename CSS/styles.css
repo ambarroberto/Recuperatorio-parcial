@@ -55,3 +55,17 @@ nav ul li a:link {
   background-color: #d85a30;
   color: #fdf6ec;
  }
+ main section {
+  padding: 1.5rem 2rem;
+}
+ 
+main section h2 {
+  font-size: 18px;
+  color: #2c2c2a;
+  margin: 0 0 0.75rem;
+}
+main section p {
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
