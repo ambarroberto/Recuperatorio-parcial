@@ -13,5 +13,13 @@ body {
   border-radius: 12px;
   overflow: hidden;
   background-image: url('../imagenes/fondo.jpg');
-
+}
+header {
+  padding: 1.75rem 2rem 1.25rem;
+}
+header h1 {
+  font-size: 24px;
+  color: #2c2c2a;
+  margin: 0 0 0.75rem;
+  text-align: left;
 }
