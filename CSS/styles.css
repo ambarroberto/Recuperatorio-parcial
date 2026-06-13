@@ -41,3 +41,17 @@ nav ul li a {
   background-color: #fdf6ec;
   color: #854f0b;
 }
+nav ul li a:hover {
+  background-color: #2c2c2a;
+  color: #fdf6ec;
+}
+nav ul li a:link {
+  color: #854f0b;
+}
+ nav ul li a:visited {
+  color: #e05d2594;
+}
+ nav ul li a:active {
+  background-color: #d85a30;
+  color: #fdf6ec;
+ }
