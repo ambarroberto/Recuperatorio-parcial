@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body { 
+    font-family: 'Glegoo', sans-serif; max-width: 700px;
+  width: 100%;
+  background-color: #fdf6ec;
+  color: #5f5e5a;
+  margin: 2.5rem auto;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background-image: url('../imagenes/fondo.jpg');
+
+}
