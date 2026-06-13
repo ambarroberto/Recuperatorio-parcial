@@ -19,7 +19,7 @@ header {
 }
 header h1 {
   font-size: 24px;
-  color: #2c2c2a;
+  color: #131312;
   margin: 0 0 0.75rem;
   text-align: left;
 }
@@ -68,4 +68,17 @@ main section p {
   font-size: 15px;
   line-height: 1.7;
   margin: 0 0 1rem;
+}
+main section ul {
+  font-size: 15px;
+  line-height: 1.7;
+}
+main section:first-of-type {
+  background-color: #ba8f5d;
+  padding: 2rem;
+}
+main section:first-of-type h2 {
+  color: #fac775;
+  font-size: 16px;
+  font-weight: normal;
 }
