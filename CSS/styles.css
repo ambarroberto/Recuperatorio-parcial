@@ -101,3 +101,16 @@ blockquote {
 main section:first-of-type blockquote {
   color: #f5e9d8;
 }
+blockquote::first-letter {
+  font-size: 28px;
+  color: #d85a30;
+}
+footer {
+  padding: 1.25rem 2rem 1.75rem;
+  font-size: 13px;
+  color: #888780;
+}
+ 
+footer a {
+  color: #178f6e;
+}
