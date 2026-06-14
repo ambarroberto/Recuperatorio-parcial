@@ -49,12 +49,12 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li a:link {
- color: #eddfc8;
+ color: #fcf2e1;
  background-color: transparent;
 }
  nav ul li a:visited {
- color: #c9a97a;
- background-color: transparent
+ color: #807768;
+ background-color: transparent;
 }
 nav ul li a:hover {
   background-color: #9b462a;
@@ -116,12 +116,11 @@ main section:first-of-type h2 {
 main section:first-of-type p {
   color: #e0c9a6;
 }
-main section img,
-main section iframe {
+main section img, main section iframe{
   display: block;
   width: 100%;
-  max-width: 100%;
-  margin: 0.5rem 0;
+  max-width: 560px;
+  margin: 14px auto;
 }
 blockquote {
   border-left: 4px solid #9b462a;
