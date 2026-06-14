@@ -11,7 +11,7 @@ body {
   margin: 2.5rem auto;
   padding: 0;
   border-radius: 12px;
-  overflow: hidden;
+  overflow: auto;
   background-image: url('../imagenes/fondo.jpg');
 }
 header {
@@ -30,7 +30,7 @@ nav ul {
   padding: 0;
   border: 1px solid #e8c9a0;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: auto;
   width: fit-content;
 }
 nav ul li a {
@@ -110,7 +110,6 @@ footer {
   font-size: 13px;
   color: #888780;
 }
- 
 footer a {
   color: #178f6e;
 }
