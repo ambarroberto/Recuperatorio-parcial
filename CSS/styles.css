@@ -31,10 +31,9 @@ header h1 {
 }
 nav ul {
   display: flex;
-  list-style: none;
+  list-style: none; 
   margin: 0;
   padding: 10px;
-  border-radius: 4px;
   overflow: auto;
   width: 100%;
   background-color: #3a2e22;
@@ -47,7 +46,6 @@ nav ul li a {
   padding: 8px 18px;
   font-size: 13px;
   font-weight: 600;
-  border-radius: 4px;
   text-decoration: none;
 }
 nav ul li a:link {
@@ -66,72 +64,76 @@ nav ul li a:hover {
   background-color: #7a3320;
   color: #f5ede0;
  }
+ main {
+  background-color: #3a2e22;
+  overflow: hidden;
+}
  main section {
-   padding: 28px 36px;
-  background-color: #c29f78;
+  padding: 28px 36px;
+  background-color: #3a2e22;
 }
 main section h2 {
+  text-align: left;
   font-size: 18px;
   font-weight: 700;
-  color: #1c1915;
+  color: #e0c9a6;
   margin: 0 0 0.75rem;
   padding-left: 16px;
   line-height: 1.3;
 }
 main section p {
-  color: #1c1915;
+  color: #e0c9a6;
   font-size: 15px;
   font-weight: 700;
-  padding-left: 16px;
-  line-height: 1.3;
+  padding-left: 0;
+  line-height: 1.7;
+  text-align: justify;
   margin: 0 0 1rem;
 }
 main section ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  list-style: disc;
+  padding-left: 20px;
+  display: block;
   margin-top: 8px;
 }
 main section ul li {
   font-size: 15px;
   line-height: 1.7;
-  background-color: #eddfc8;
-  color: #1c1915;
+  background-color: transparent;
+  color: #e0c9a6;
   font-weight: 600;
-  padding: 6px 18px;
+  padding: 0;
 }
 main section:first-of-type {
-  background-color: #c29f78;
+  background-color: #3a2e22;
   padding: 2rem;
 }
 main section:first-of-type h2 {
-  color: #1c1915;
-  font-size: 16px;
-  font-weight: normal;
+  color: #e0c9a6;
+  font-size: 18px;
+  font-weight: 700;
 }
 main section:first-of-type p {
-  color: #f1cfa3;
+  color: #e0c9a6;
 }
 main section img,
 main section iframe {
   display: block;
   width: 100%;
   max-width: 100%;
-  border: 1px solid #4a3525;
-  border-radius: 8px;
   margin: 0.5rem 0;
 }
 blockquote {
   border-left: 4px solid #9b462a;
   padding-left: 14px;
   margin: 1rem 0;
-  color: #ccbdb1;
   font-size: 1.05rem;
-  background-color: #b49475;
+  color: #1c1915;
+  background-color: #eddfc863;
 }
 main section:first-of-type blockquote {
-  color: #f5e6d9;
+  color: #e0c9a6;
+  background-color: #fffffe25;
 }
 blockquote::first-letter {
   font-size: 28px;
@@ -140,12 +142,23 @@ blockquote::first-letter {
 footer {
   padding: 1.25rem 2rem 1.75rem;
   font-size: 13px;
-  color: #141413;
-  background-color: #c29f78;
+  color: #1c1915;
+  background-color: #eddfc8;
   text-align: center;
 }
 footer a {
-   color: #141413;
+   color: #9b462a;
   font-weight: 700;
   text-decoration: none;
+}
+footer a:hover {
+  color: #1c1915;
+  border-color: #1c1915;
+}
+hr {
+border: none;
+  border-top: 3px solid #9b462a;
+  width: 60%;
+  margin: 0 auto;
+  height: 0;
 }
